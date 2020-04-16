@@ -16,3 +16,8 @@ zkserver
 Start and keep running the Kafka service. What directory must you be in?
 
  .\kafka-server-start.bat .\server.properties.
+
+## 3.Start Consumer
+Open PowerShell as Administrator in the root project folder, start the original consumer app:
+
+java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmsu.karanam.kafka.CustomConsumer 
