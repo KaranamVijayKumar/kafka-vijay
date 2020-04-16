@@ -21,3 +21,12 @@ Start and keep running the Kafka service. What directory must you be in?
 Open PowerShell as Administrator in the root project folder, start the original consumer app:
 
 java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmsu.karanam.kafka.CustomConsumer 
+
+## 4.Start Producer
+Open a new PowerShell as Administrator in the root project folder, start the Producer app using topic test:
+
+java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmsu.karanam.kafka.CustomProducer
+
+# Reference
+
+<https://github.com/denisecase/kafka-case>
